@@ -61,7 +61,6 @@ header {
 }
 
 header .logo {
-	flex: 1;
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 10px;
@@ -157,6 +156,7 @@ header .menu {
 	}
 	#chk1:checked ~ ul {
 		right: 0;
+		transition: 1s;
 	}
 	.heavy img {
 		width: 80%;
